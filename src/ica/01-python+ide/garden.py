@@ -16,4 +16,4 @@ flower_width = 0.5
 bed = bed_len * bed_width
 flower = flower_len * flower_width
 y = bed / flower
-print (x)
+print (y)
