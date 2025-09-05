@@ -1,4 +1,4 @@
 # scriptE.py
-
-strng = "apples"
+# correct line 3 strng to string
+string = "apples"
 print(string, string, string)
