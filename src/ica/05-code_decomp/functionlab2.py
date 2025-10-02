@@ -1,7 +1,7 @@
 """The code draws circles that are layered to form a shape
 that resembles a flower. The circles are drawn one after
 the other layering 5 circles on top of each other before
-it moves on to the next. There rae 4 turtles that are
+it moves on to the next. There are 4 turtles that are
 performing this function."""
 
 import turtle
