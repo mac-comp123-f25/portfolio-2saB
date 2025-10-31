@@ -1,11 +1,11 @@
-<<<<<<< Updated upstream
+#<<<<<<< Updated upstream
 """
 Examples of how to process CSV files
 
 @author: Susan Fox
 @author: Amin G. Alhashim (aalhashi@macalester.edu)
 """
-
+import csv
 from helpers import *
 
 # Example: Representing tabular data as a list of dictionaries
@@ -109,8 +109,8 @@ def main():
 
 if __name__ == '__main__':
     main()
-=======
-import csv
+
+#import csv
 table = [{'Name': 'Fox, Susan', 'Phone': '6553',
           'Building': 'Olin-Rice', 'OfficeNum': '230'},
 
@@ -198,20 +198,20 @@ def lookup_by_date(monthname, monthday, tabular):
 # print(lookup_by_date('January', '10', tabular))
 
 
-def collect_by_building(capital_letter, table):
-    """
-    Given the name of a building, and a sunTable, make a list of all
-    the entries in the sunTable belonging to that building and return
-    that list
-    """
-    match_list = []
-
-    for row in table:
-        str = row['Name']
-        if str.startswith(capital_letter):
-            match_list.append(str)
-
-    return match_list
+# def collect_by_building(capital_letter, table):
+#     """
+#     Given the name of a building, and a sunTable, make a list of all
+#     the entries in the sunTable belonging to that building and return
+#     that list
+#     """
+#     match_list = []
+#
+#     for row in table:
+#         str = row['Name']
+#         if str.startswith(capital_letter):
+#             match_list.append(str)
+#
+#     return match_list
 
 # print(collect_by_building('F', table))
 
@@ -241,6 +241,6 @@ def collect_by_letter(capital_letter, table):
 
     return match_letter
 
-# print(collect_by_letter('F', table))
+print(collect_by_letter('F', table))
 
->>>>>>> Stashed changes
+
